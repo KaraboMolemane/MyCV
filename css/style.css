@@ -1,0 +1,276 @@
+body {
+  color: #333;
+  font-size: 16px;
+  /*#sidenav {
+    width: 190px;
+    padding: 0;
+  }
+
+  #sidenav a {
+    box-sizing: content-box;
+    color: #444;
+    display: block;
+    line-height: 100%;
+    padding: 10px 0 12px;
+  }
+  #sidenav .logo-container a.active,
+  #sidenav .logo-container a:hover {
+    border: none;
+    font-weight: 200;
+  }
+  #sidenav .logo-container {
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 40px;
+  }
+  #sidenav .logo-container a {
+    font-weight: 200;
+    line-height: 100%;
+  }
+  #sidenav li:not(.logo-container) a.active,
+  #sidenav li:not(.logo-container) a:hover {
+    background-color: #fafafa;
+    border-left: 3px solid;
+  }
+  #sidenav li:not(.logo-container) a span,
+  li:not(.logo-container) a span {
+    color: #333 !important;
+  }
+
+  .logo-container span {
+    display: block;
+    font-size: 14px;
+  }*/
+  /*a.hoverline:hover {
+    border-bottom: 3px solid #0d6efd !important;
+  }*/
+}
+body nav > .active {
+  background-color: #fafafa;
+  border-bottom: 1px solid #ddd;
+}
+body .b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+body a {
+  color: #0d6efd;
+}
+body .text-center {
+  text-align: center;
+}
+body main {
+  background: url(../images/Zebra-3D-Grey-Seamless-Pattern-For-Website-Background.jpeg) repeat;
+}
+body main #my-container {
+  overflow: auto;
+  width: 100%;
+}
+body .brand-logo h1 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: inherit;
+  font-weight: inherit;
+}
+body .container {
+  width: 95%;
+}
+body .section {
+  padding-bottom: 30px;
+  padding-top: 0;
+  position: relative;
+}
+body h3 {
+  font-weight: 200;
+  margin-bottom: 60px;
+  margin-top: 0;
+  padding: 30px 40px;
+  text-transform: uppercase;
+  color: #ddd;
+}
+body .full-height {
+  height: 100%;
+}
+body #intro.section {
+  background: url(../images/KaraboMolemane.jpg) no-repeat top center/cover;
+  position: relative;
+}
+body #intro.section .container {
+  color: white;
+  font-weight: 200;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+body #intro.section .container *:not(span) {
+  font-weight: 300;
+  line-height: 150%;
+  padding: 0 30px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+body #intro.section .underline {
+  border-bottom: 5px solid #0d6efd;
+}
+body #intro.section .blue {
+  padding: 0 10px;
+}
+body .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+body .card {
+  margin-bottom: 60px;
+}
+body .card .role {
+  font-size: 1.25rem;
+  position: absolute;
+  right: 38px;
+  top: 35px;
+}
+body .card li a {
+  margin-right: 0;
+  color: #333;
+  text-decoration: none;
+}
+body .card li a:hover {
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+}
+body .card .card-content {
+  padding-bottom: 30px;
+}
+body .card .card-content p {
+  padding: 5px 0 0;
+}
+body .card h5 {
+  font-size: 1.5rem;
+  margin-bottom: -0.5rem;
+  margin-top: 2rem;
+}
+body .card h6 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+body #experience .card-action {
+  background-color: rgba(0, 0, 0, 0.02);
+  border: none;
+}
+body #experience .card .col.col-sm-12.col-md-2 a {
+  display: block;
+}
+body #experience .card .col.col-sm-12.col-md-2 a img {
+  max-height: 60px;
+}
+body #community .card-action {
+  background-color: rgba(0, 0, 0, 0.02);
+  border: none;
+}
+body #community .card .col.col-sm-12.col-md-2 a {
+  display: block;
+}
+body #community .card .col.col-sm-12.col-md-2 a img {
+  max-height: 60px;
+}
+body .card-action span {
+  font-size: 85%;
+  color: #666;
+}
+body .card ul {
+  margin-bottom: 0;
+}
+body .card ul li {
+  line-height: 200%;
+  list-style-type: disc;
+  margin-left: 24px;
+}
+body .card ul li li {
+  color: #666;
+  font-size: 13px;
+}
+body .card .card-title {
+  font-size: 24px;
+  text-decoration: none;
+}
+body .card .card-content .card-title {
+  line-height: 2.5rem;
+}
+body .card i.right {
+  margin-left: 10px;
+}
+body a.hoverline {
+  padding: 3px 3px 0 3px;
+  transition: 0.25s all;
+  -moz-transition: 0.25s all;
+  -webkit-transition: 0.25s all;
+}
+body #skills .card.large {
+  height: 360px;
+}
+body #skills h4 {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+body #skills .col img.responsive-img {
+  margin: 0 auto;
+  max-height: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+  vertical-align: left;
+  display: table-cell;
+}
+body #experience .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  -webkit-text-decoration: non;
+          text-decoration: non;
+}
+body #community .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+body .card.large .card-image {
+  height: 230px;
+}
+body .card.large .card-content {
+  height: auto;
+}
+body .card.medium .card-image {
+  height: 240px;
+}
+body .card-action a.btn-floating {
+  margin-bottom: 0;
+}
+body #contact a:not(.btn-floating) {
+  bottom: 6px;
+  left: 20px;
+  position: relative;
+}
+body #experience .col.col-sm-12.col-md-2 {
+  text-align: left;
+}
+body #community .col.col-sm-12.col-md-2 {
+  text-align: left;
+}
+body .grey-text {
+  color: #666 !important;
+}
+body .blue-text {
+  color: #0d6efd !important;
+}
+body .blue {
+  background-color: #0d6efd !important;
+}
+body #education.section .card-content {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

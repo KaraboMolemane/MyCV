@@ -1,0 +1,304 @@
+body{
+
+  color: #333;
+  font-size: 16px;
+
+  nav > .active{
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  a {
+    color: #0d6efd;
+  }
+
+
+
+  main {
+    background: url(../images/Zebra-3D-Grey-Seamless-Pattern-For-Website-Background.jpeg) repeat;
+    //background: lightgray;
+
+    #intro.section {
+      background: url(../images/KaraboMolemane.jpg) no-repeat top center/cover;
+      //background: url(../images/KM.jpg) no-repeat top center/cover;
+      position: relative;
+      
+      .container {
+        color: white;
+        font-weight: 200;
+        left: 0;
+        position: absolute;
+        top: 0;
+
+        *:not(span) {
+          font-weight: 300;
+          line-height: 150%;
+          padding: 0 30px;
+          text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        }
+      }
+
+
+
+    }
+  
+
+    #intro.section{
+
+      .underline {
+        border-bottom: 5px solid #0d6efd;
+      }
+    
+      .blue {
+        padding: 0 10px;
+      }
+  
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+    }
+
+
+
+    .logo-container span {
+      display: block;
+      font-size: 14px;
+    }*/
+  
+    .brand-logo h1 {
+      font-size: inherit;
+      line-height: inherit;
+      margin: inherit;
+      font-weight: inherit;
+    }
+
+    #my-container{
+      //height: auto;
+      //overflow-y: scroll;
+      overflow: auto; //make content scroll
+      width: 100%;
+
+      .section {
+        padding-bottom: 30px;
+        padding-top: 0;
+        position: relative;
+    
+        h3 {
+          font-weight: 200;
+          margin-bottom: 60px;
+          margin-top: 0;
+          padding: 30px 40px;
+          text-transform: uppercase;
+          color: #ddd;
+        }
+
+        .container {
+          width: 95%;
+
+          .card {
+            margin-bottom: 60px;
+        
+            .role {
+              font-size: 1.25rem;
+              position: absolute;
+              right: 38px;
+              top: 35px;
+              
+            }
+        
+            li a {
+              margin-right: 0;
+              color: #333;
+              text-decoration: none;
+              //border-bottom: 2px solid #ffab40;
+        
+              a:hover {
+                color: #333;
+                font-weight: 500;
+                text-decoration: none;
+              }
+            }
+        
+            .card-content {
+              padding-bottom: 30px;
+              
+              p {
+                padding: 5px 0 0;
+              }
+        
+              .text-center {
+                text-align: center;
+              }
+
+              .card-title {
+                line-height: 2.5rem;
+            
+              }
+            }
+        
+            h5 {
+              font-size: 1.5rem;
+              margin-bottom: -0.5rem;
+              margin-top: 2rem;
+            }
+        
+            h6 {
+              font-weight: 300;
+              letter-spacing: 1px;
+              margin-top: 2rem;
+              text-transform: uppercase;
+              
+            }
+
+            .card-action span {
+              font-size: 85%;
+              color: #666;
+            }
+
+            .card ul {
+              margin-bottom: 0;
+          
+              li {
+                line-height: 200%;
+                list-style-type: disc;
+                margin-left: 24px;
+          
+                li {
+                  color: #666;
+                  font-size: 13px;
+                }
+              }
+            }
+
+            .card .card-title {
+              font-size: 24px;
+              text-decoration: none;
+          
+            }
+
+
+            i.right {
+              margin-left: 10px;
+            }
+        
+          }
+
+          .card.medium .card-image {
+            height: 240px;
+          }
+
+        }
+      }
+
+      #contact a:not(.btn-floating) {
+        bottom: 6px;
+        left: 20px;
+        position: relative;
+      }
+
+      #skills{
+        .card.large {
+          height: 360px;
+        }
+        h4 {
+          border-bottom: 1px solid #ddd;
+          margin-bottom: 30px;
+          padding-bottom: 20px;
+        }
+        .col img.responsive-img {
+          margin: 0 auto;
+          max-height: 100px;
+          padding-bottom: 10px;
+          text-align: center;
+          vertical-align: left;
+          display: table-cell;
+        }
+      }
+
+      #experience{
+
+        .card-action {
+          background-color: rgba(0, 0, 0, 0.02);
+          border: none;
+
+          a.btn-floating {
+            margin-bottom: 0;
+          }
+        }
+
+        .card .col.col-sm-12.col-md-2 a{
+          
+          display: block;        
+          img {
+            max-height: 60px;
+          }
+        }
+
+        .card-content .row {
+          border-bottom: 1px solid #ddd;
+          padding-bottom: 10px;
+          text-decoration: non;
+        }
+        
+        .col.col-sm-12.col-md-2 {
+          text-align: left;
+        }
+
+      }
+
+      #community{
+
+        .card-action {
+          background-color: rgba(0, 0, 0, 0.02);
+          border: none;
+        }
+
+        .card .col.col-sm-12.col-md-2 a{
+          
+          display: block;        
+          img {
+            max-height: 60px;
+          }
+        }
+
+        .card-content .row {
+          border-bottom: 1px solid #ddd;
+          padding-bottom: 10px;
+        }
+
+        .col.col-sm-12.col-md-2 {
+          text-align: left;    
+        }
+
+      }
+    }
+  }
+
+  a.hoverline {
+    //border-bottom: 3px solid transparent !important;
+    padding: 3px 3px 0 3px;
+    transition: 0.25s all;
+    -moz-transition: 0.25s all;
+    -webkit-transition: 0.25s all;
+  }
+
+  .blue-text {
+    color: #0d6efd !important;
+  }
+  .blue {
+    background-color: #0d6efd !important;
+  }
+
+  
+}
