@@ -103,7 +103,7 @@
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+None
 
 ### Installation
 
@@ -118,6 +118,11 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 
 Open the ```index.html``` file to launch the home page and browse through the defferent sections. This website has also been published to [GitHub Pages](https://pages.github.com/) and can be accessed on the following link [https://karabomolemane.github.io/MyCV/](https://karabomolemane.github.io/MyCV/)
+
+<div align="center">
+    <img src="images/cv.png" alt="Logo" width="100%" height="350" >
+</div>
+
 
 
 _For more examples, please refer to the [Documentation](https://github.com/KaraboMolemane/MyCV)_
